@@ -1,0 +1,16 @@
+.bounce{
+    animation: bounce 350ms 300ms;
+    animation-timing-function: ease-in-out !impotant;
+}
+
+@keyframes bounce {
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(-2deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}

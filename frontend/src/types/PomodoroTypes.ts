@@ -1,0 +1,1 @@
+export type PomodoroState = "init" | "focus" | "rest" | "done";

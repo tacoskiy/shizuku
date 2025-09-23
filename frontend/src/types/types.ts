@@ -1,1 +1,0 @@
-export type PomodoroState = "focus" | "rest" | "pause";
